@@ -1,0 +1,130 @@
+* {  box-sizing: border-box; } html { scroll-behavior: smooth; }
+
+body{ 
+    font-size:15px; line-height:1.6;
+    font-family:'Trebuchet MS', sans-serif;
+    margin:0;
+    } /* --End of Body -- */
+
+h1{font-size:28px;color:#5F2B93;font-weight:normal;} h2{font-size:23px;color:#5F2B93;font-weight:normal;} h3{font-size:20px;color:dimgray;font-weight:bold;} 
+
+/* -- MAIN COLOR SCHEME: 
+      PURPLE - #5F2B93  GREEN - #67A032    ORANGE -  #C03C09
+*/
+
+  sup{font-size:10px;font-style:normal;font-weight:normal;font-family:veranda;} a{cursor:pointer;text-decoration:underline;color:black;} a:hover{color:#C03C09;}
+  .disclaimer{font-size:10px;color:dimgray;}
+
+
+  .container, .leftContainer {margin:auto; margin-top:40px; margin-bottom:40px; padding:10px; width:full; display:block; max-width:1200px; text-align:center;}
+	.fullContainer {margin:0; padding:20px; width:full; display:block; margin-top:40px; margin-bottom:40px; text-align:center; background-position: center; background-repeat: no-repeat; background-size: cover;}
+	.leftContainer {text-align:left;}
+
+	.spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:#efefef;}
+
+
+
+/*-- BANNERS AND TITLE BARS --------------------------------------------------------------------------------------------------------------------------------- */
+
+	.banner {width:full; height:400px; margin:0; padding:0; text-align:center; background:#5F2B93;}
+	.banner img{width:100%; height:100%; margin:0; object-fit:cover;}
+
+	.titleBar {width:full; min-height:90px; text-align:center; background:#5F2B93; margin:0; margin-bottom:20px; padding:10px;}
+	.titleBar h1,.titleBar h2,.titleBar h3 {vertical-align: middle; color:white;}
+	.titleBar img {height:100px; width:auto; margin:10px;}
+
+	@media screen and (max-width:800px){
+		.titleBar img{width:80vw; height:auto; max-width:600px;}
+	}
+
+	.subtitleBar {width:full; margin-top:-20px; padding:15px; background:#efefef; text-align:center;}
+	.subtitleBar p {max-width:1200px; margin-left:auto; margin-right:auto;}
+
+
+  /*-- FLEX ELEMENTS ------------------------------------------------------------------------------------------------------------------------------------------ */
+  
+          .spotlightContainer{display:flex; justify-content:center; align-items:center; flex-flow:row; flex-wrap:wrap; max-width:1200px; margin:auto; width:100%;}
+          .spotlightTile{position:relative; width:30%; margin:1%; height:auto;  transition:0.4s; border:1px solid black; border-radius:10px; text-align:center; max-width:450px; align-self:stretch;}
+          .spotlightTile img{width:100%; height:200px; border-radius:9px 9px 0 0; margin:0; object-fit:cover;}
+        	.spotlightText{padding:15px; padding-top:0;}
+          .spotlightTile:hover{background:#efefef; cursor:pointer;}
+          .spotlightTile:hover h3{color:black;}
+        	.spotlightTile .splink{position:absolute; bottom:15px; left:0; right:0;}
+          @media screen and (max-width:900px){.spotlightContainer{flex-flow:column;} .spotlightTile{width:90%; margin:0; margin-bottom:20px; align-self:center; min-width:250px;}}
+        
+        
+        	.entertainmentContainer{width:100%; max-width:1200px; padding:10px; display:flex; flex-flow:row; align-items:center; justify-content:center; flex-wrap:wrap;}
+        	.entertainmentContainer div{width:30%; margin:10px; border:1px solid black; align-self:stretch; min-width:300px; border-radius:5px; cursor:pointer;}
+        	.entertainmentContainer div img{float:left; width:30%; height:100%; margin:0; object-fit:cover; border-radius:4px;}
+        	.entertainmentContainer div p{width:70%; float:right; text-align:left; margin:0; padding:10px;}
+        	.entertainmentContainer div:hover{background:#efefef;} .entertainmentContainer div:hover p b{transition:0.4s; color:#073763;}
+        	@media screen and (max-width:600px){.entertainmentContainer{flex-flow:column;} .entertainmentContainer div{width:90%; margin:auto; margin-bottom:20px;}
+          .entertainmentContainer div img{width:100%; height:80px; display:block;} .entertainmentContainer div p{display:block; width:100%;}}
+        
+        
+        	.attractionDiv .tileContainer{justify-content:left;}
+          .attractionDiv .tileContainer div {width:30%; border:1px solid black; border-radius:10px; margin:10px; transition:0.4s; margin-bottom:20px;}
+          .attractionDiv .tileContainer div:hover{background:#efefef;}
+        	.attractionDiv .tileContainer div h3 {font-size:18px; margin-bottom:0; text-transform: uppercase;}
+        	.attractionDiv .tileContainer div .sponsor{margin-top:0;}
+                
+        	@media screen and (max-width:900px){
+        	       	.attractionDiv .tileContainer div {width:90%; margin:auto; max-width:400px; margin-bottom:20px;}
+        	}
+
+
+	      .columnContainer {display:flex; flex-flow:row; flex-wrap:nowrap; max-width:1200px; margin:auto; margin-bottom:20px; padding:0;}
+        .columnContainer div{width:60%; align-self:stretch; padding:20px;}
+        .columnContainer img{width:40%; align-self:stretch; object-fit:cover; margin:15px; border-radius:10px;}
+        @media screen and (max-width:900px){.columnContainer{flex-flow:column;} .columnContainer div{width:90%; padding:0; margin:auto; margin-bottom:20px;} .columnContainer img{width:90%; margin:0; margin:auto; margin-bottom:20px; max-height:250px;}}
+
+
+	      .tileContainer {display:flex; flex-flow:row; flex-wrap:nowrap; width:100%; max-width:1200px; margin:auto; margin-top:20px; margin-bottom:20px; flex-wrap:wrap; justify-content:center;}
+        .tileContainer div{margin:0; padding:20px; width:32%; cursor:pointer;}
+        .tileContainer div img{width:100%; height:200px; border-radius:10px; object-fit:cover; margin-bottom:0;}
+        .tileContainer div p {text-align:left; margin-top:0px;} .tileContainer div h3 {margin-bottom:10px; margin-top:10px; font-weight:bold; font-size:16px;}
+        
+        .tileContainer div:hover img{scale:1.025; transition:0.25s;} .tileContainer div:hover h3{color:#5F2B93; transition:0.25s; }
+        
+        @media screen and (max-width:900px){.tileContainer{flex-flow:column;} .tileContainer div{width:90%; margin:auto; max-width:400px;}}
+
+
+	      .selectionContainer{width:100%; max-width:1200px; margin:auto; margin-bottom:30px; margin-top:30px; padding:15px; display:flex; flex-flow:row;}
+        .selectionContainer:hover{cursor:pointer;} .selectionContainer:hover h1, .selectionContainer:hover h2, .selectionContainer:hover h3{transition:0.25s; color:#336666;}
+        .selectionContainer h1, .selectionContainer h2, .selectionContainer h3 {margin-top:0;}
+        .selectionContainer img{width:35%; margin:0; align-self:stretch; max-height:200px; object-fit:cover; border-radius:10px; transition:0.25s;}
+	      .selectionContainer:hover img{scale:1.025;}
+        .selectionContainer div{width:65%; margin:0; align-self:flex-start; margin-left:20px;}
+        
+        @media screen and (max-width:900px){
+        	.selectionContainer{flex-flow:column;}
+            	.selectionContainer img{width:100%; margin-bottom:15px;}
+            	.selectionContainer div{width:100%; margin-left:0;}
+        }
+
+  .otherEvents img{width:20%; align-self:stretch; margin:0; margin-right:15px; object-fit:cover;}
+	.otherEvents div{width:80%; margin:0;} .otherEvents div h3{color:#5F2B93; margin-top:0;}
+	.otherEvents{display:flex; flex-flow:row; width:100%; padding:15px; max-width:1200px; margin:auto;}
+	@media screen and (max-width:900px){.otherEvents{flex-flow:column;} .otherEvents div{margin-top:15px; width:100%;} .otherEvents img{width:100%;}}
+        
+        	#diningBanner{text-align:left; background:#efefef;margin-top:0;}
+		@media screen and (min-width:900px){
+		      #diningBanner .columnContainer img{width:50%;}
+		      #diningBanner .columnContainer div{width:50%;}
+		}
+
+		.menuItems{display:flex; flex-flow:row; flex-wrap:wrap; align-items:flex-start; max-width:900px; margin:auto;}
+		.menuItems div{width:50%; margin:0; padding:10px; align-self:stretch; text-align:left;}
+
+		@media screen and (max-width:700px){
+			.menuItems div{width:100%; padding:12px; text-align:center;}
+		}
+
+	.porthole{display:flex; margin:auto; border:none; padding:0; text-align:center; align-items:center; flex-flow:row; flex-wrap:wrap; justify-content:center;}
+	.porthole div{width:200px; align-self:stretch; margin:0; padding:15px;}
+	.porthole div img{width:150px; height:150px; object-fit:cover; border-radius:50%; transition:0.4s; margin:0; margin-bottom:5px;}
+	.porthole div h3{font-size:17px;  margin:0; transition:0.4s;}
+	.porthole div:hover h3{color:black;} .porthole div:hover img{scale:1.05; border-radius:40%;}
+	@media screen and (max-width:500px){.porthole div{width:100%; padding:30px;} .porthole div img{width:165px; height:165px;}}
+
+  
