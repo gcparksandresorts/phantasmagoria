@@ -9,15 +9,16 @@
     	position:fixed;
     	top:0;right:0;left:0;
     	width:100vw;
-    	height:60px;
+    	height:150px;
     	background:#5F2B93;
-	z-index:999;
+	    z-index:999;
+	    text-align:center;
 }
 #headerBarLogo{
     width:auto;
-    height:40px;
-    margin-left:15px;
-    margin-top:10px;
+    height:85px;
+    margin:auto;
+    margin-top:15px;
     cursor:pointer;
 }
 .headerBarButton{
