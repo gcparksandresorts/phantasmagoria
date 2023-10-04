@@ -127,4 +127,6 @@ h1{font-size:28px;color:#5F2B93;font-weight:normal;} h2{font-size:23px;color:#5F
 	.porthole div:hover h3{color:black;} .porthole div:hover img{scale:1.05; border-radius:40%;}
 	@media screen and (max-width:500px){.porthole div{width:100%; padding:30px;} .porthole div img{width:165px; height:165px;}}
 
-  
+
+  	button {width:auto; padding:5px; margin:auto; border:1px solid #5F2B93; border-radius:5px; color:#5F2B93; transition:0.5s;}
+	button:hover {background:#5F2B93; color:white;}
