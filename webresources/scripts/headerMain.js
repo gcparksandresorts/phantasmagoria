@@ -25,7 +25,13 @@
 			headBar.innerHTML = "";
 			
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
-									
+			headBar.innerHTML += "<br>";
+			headBar.innerHTML += "<a class='headerBarButton'>Tickets and Passes</a>";
+			headBar.innerHTML += "<a class='headerBarButton'>Things to Do</a>";
+			headBar.innerHTML += "<a class='headerBarButton'>Hotels</a>";
+			headBar.innerHTML += "<a class='headerBarButton'>Information</a>";
+			
+						
 		}//end of if statemement
 		else{
 			
