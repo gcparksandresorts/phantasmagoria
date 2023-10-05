@@ -16,41 +16,25 @@
 }
 #headerBarLogo{
     width:auto;
-    height:85px;
+    height:90px;
     margin:auto;
-    margin-top:15px;
+    margin-top:10px;
+    margin-bottom:8px;
     cursor:pointer;
 }
 .headerBarButton{
-	    width:auto;
-	    height:60px;
-	    margin:0;
-		  float:right;
-	    text-align:center;
-	    padding:19px 10px;
-	    font-size:16px;
-	    transition:0.25s;
-	    color:white;
-	    cursor:pointer;
-	    border-radius:0;
-		border:none;
-}
-#headerBarTP{
-    float:right;
-    margin:10px;
-    margin-top:10px;
-    width:auto;
-    height:40px;
-    background:white;
-    color:#5F2B93; border:none;
-    font-size:16px; transition:0.25s;
-    border-radius:10px; cursor:pointer;
-	margin-right:30px;
+	color:white;
+    font-size:19px;
+    text-decoration:none;
+    transition:0.4s;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
 }
         
         
-        .headerBarButton:hover{background:white;color:black;}
-        #headerBarTP:hover{background:#efefef;scale:1.05;color:black;}
+.headerBarButton:hover{color:#67A032; text-decoration:underline; cursor:pointer;}
+#headerBarTP:hover{background:#efefef;scale:1.05;color:black;}
 
 #ttdMenu, #moreMenu{
 	display:none;
