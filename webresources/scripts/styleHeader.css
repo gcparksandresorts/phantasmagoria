@@ -10,8 +10,7 @@
     	top:0;right:0;left:0;
     	width:100vw;
     	height:150px;
-    	background:url("https://cdn2.unrealengine.com/20br-evergreenlineup-1920x600-purple-b-1920x600-c839aea62211.jpg");
-	    z-index:999;
+    	background:linear-gradient(to right, #36013F, #800080, #36013F);
 	    text-align:center;
 }
 #headerBarLogo{
