@@ -89,6 +89,7 @@
 #footer a{color:white;}
 #footer a:hover{color:#efefef;}
 #footer .spacer{background:white;}
+#footer{margin-bottom:0;}
 
 /* -- LOADING STYLES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
         #loader{position:fixed;top:0;bottom:0;left:0;right:0;background:white;z-index:998;}
