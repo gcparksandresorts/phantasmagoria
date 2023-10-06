@@ -47,15 +47,17 @@
 
 //---------------------------------------------------------------------------------------------------------------------------------- FOOTER SETUP
 	function createFooter(){
-		footBar.innerHTML = "<div class='spacer'></div>";
+		footBar.classList.add('fullContainer');
+		footBar.style.backgroundColor = "#C03C09";
 
-		footBar.innerHTML += "<div class='spacer'></div> \
-				     <div class='container' style='text-align:center;line-height:2;'> \
-				     <b>Get in Touch</b> <br> (312) 732 1000 <br> <a href='mailto: globecityparksandresorts@gmail.com'>guestservices@phantasmagoria.com</a> </div>";
+		footBar.innerHTML = "";
 		
-		footBar.innerHTML += "<div class='spacer'></div> \
-			              <div style='text-align:center'> <br> \
-			              <img src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcprGrayLogo.png' style='width:300px;height:auto;margin:auto;'> \
+		footBar.innerHTML += "<div class='container' style='text-align:center;line-height:2; color:white;'> \
+				     <b>Get in Touch</b> <br> (312) 732 1000 <br> <a style='color:white;' href='mailto: globecityparksandresorts@gmail.com'>guestservices@phantasmagoria.com</a> </div>";
+		
+		footBar.innerHTML += "<div class='spacer' style='background:white;'></div> \
+			              <div style='text-align:center' onclick='window.open(" + '"https://sites.google.com/view/gcparksandresorts/home", "_self"' + ")'> <br> \
+			              <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/gcprMain1.png' style='width:200px;height:auto;margin:auto;cursor:pointer;'> \
 			              </div> <br>";
 		
 		footBar.innerHTML += "<div style='text-align:center'> <p class='disclaimer'>©2023 Globe-City Parks and Resorts LLC.<br></p> \
