@@ -10,8 +10,8 @@
     	top:0;right:0;left:0;
     	width:100vw;
     	height:150px;
-    	background:linear-gradient(to right, #36013F, #800080, #36013F);
-	    text-align:center;
+    	background:linear-gradient(to right, rgba(54, 1, 63, 0.8), rgba(128, 0, 128, 0.8), rgba(54, 1, 63, 0.8));
+	text-align:center;
 	z-index:999;
 }
 #headerBarLogo{
