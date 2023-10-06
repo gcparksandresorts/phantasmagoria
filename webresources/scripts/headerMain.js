@@ -60,7 +60,7 @@
 			              <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/gcprMain1.png' style='width:200px;height:auto;margin:auto;cursor:pointer;'> \
 			              </div> <br>";
 		
-		footBar.innerHTML += "<div style='text-align:center'> <p class='disclaimer'>©2023 Globe-City Parks and Resorts LLC.<br></p> \
+		footBar.innerHTML += "<div style='text-align:center'> <p class='disclaimer' style='color:#efefef'>©2023 Globe-City Parks and Resorts LLC.<br></p> \
     				      <a href='https://gcparksandresorts.github.io/gcresorthighland/information/legal'>Privacy Policy</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/information/legal'>Legal Information</a> | <a href='https://gcparksandresorts.github.io/gcresorthighland/webresources/generators/date-tier-generator.html'>MCBPO</a> | <a>Careers</a> \
     				      <br><br>    </div>";
 		
@@ -70,12 +70,12 @@
 
 			console.log('Mini Header 2');
 
-			Header.innerHTML = "<div id='headerBar'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer'></div>";
+			Header.innerHTML = "<div id='headerBar' style='height:60px;'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer' style='height:60px;></div>";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";	
 		
-			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/images/logos/gcResortLogoRemade.png' onclick='funcGoToHome();'>";
+			headBar.innerHTML = "<img id='headerBarLogoSmall' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='openHeaderMenuMinimized' onclick='runMiniMenu()'>&#8801;</button>";
 
 			
