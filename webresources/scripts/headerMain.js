@@ -16,7 +16,7 @@
 	function initializeHeader(){
 		console.log('resizing header'); 
 		
-		if(window.innerWidth >= 900){
+		if(window.innerWidth >= 675){
 			// Desktop Version
 
 			Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
@@ -26,10 +26,10 @@
 			
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<br>";
-			headBar.innerHTML += "<a class='headerBarButton'>Tickets and Passes</a>";
-			headBar.innerHTML += "<a class='headerBarButton'>Things to Do</a>";
-			headBar.innerHTML += "<a class='headerBarButton'>Hotels</a>";
-			headBar.innerHTML += "<a class='headerBarButton'>Information</a>";
+			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
+			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Things to Do</a>";
+			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels</a>";
+			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Information</a>";
 			
 						
 		}//end of if statemement
