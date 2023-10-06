@@ -87,7 +87,7 @@
 			MHM.innerHTML = "<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
-							<a href=''>Rides and Attractions</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/attractions'>Rides and Attractions</a> \
 							<a href=''>Entertainment</a> \
 							<a href=''>Resturants and Dining</a> \
 							<a href=''>Shopping</a> \
