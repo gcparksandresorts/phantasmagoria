@@ -12,6 +12,7 @@
     	height:150px;
     	background:linear-gradient(to right, #36013F, #800080, #36013F);
 	    text-align:center;
+	z-index:999;
 }
 #headerBarLogo{
     width:auto;
