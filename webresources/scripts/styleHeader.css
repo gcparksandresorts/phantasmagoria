@@ -3,7 +3,7 @@
 */
 
 #header{width:full;}
-#headerSpacer{margin:0;width:full;height:150px;}
+#headerSpacer{margin:0;width:full;height:150px;background:black;}
 
 #headerBar {
     	position:fixed;
