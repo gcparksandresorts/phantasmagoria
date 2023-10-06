@@ -86,6 +86,9 @@
         #minimizedHeaderMenu a:hover{scale:1.02;}
         #miniMenuHider {position:fixed; top:0; bottom:0; left:0; right:0; background:rgba(0, 0, 0, 0.4); display:none; z-index:900;}
 
+#footer a{color:white;}
+#footer a:hover{color:#efefef;}
+#footer .spacer{background:white;}
 
 /* -- LOADING STYLES ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
         #loader{position:fixed;top:0;bottom:0;left:0;right:0;background:white;z-index:998;}
