@@ -84,20 +84,19 @@
 			const MHM = document.getElementById("minimizedHeaderMenu");
 			MHM.innerHTML = "";
 
-			MHM.innerHTML = "<button id='headerBarTP' onclick='" + La + "'>Tickets and Passes</button>";
+			MHM.innerHTML = "<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/adventure-park'>Adventure Park</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/destinations/city-shop'>City-Shop</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/attractions'>Attractions and Entertainment</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/dining'>Places to Eat</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/shopping'>Shopping</a> </div>";
-			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/gcresorthighland/hotels'>Hotels and Resorts</a>";
-			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/gcresorthighland/events'>Special Events</a>";
-			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>More &#9661;</a>";
+							<a href=''>Rides and Attractions</a> \
+							<a href=''>Entertainment</a> \
+							<a href=''>Resturants and Dining</a> \
+							<a href=''>Shopping</a> \
+							<a href=''>Special Events</a>  </div>"; 
+			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Places to Stay</a>";
+			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
 				MHM.innerHTML += "<div id='mreMiniMenu' class='i'> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule'>Hours and Information</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip'>GC VIP Tickets</a> \
+							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip'>Priority Passes</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports'>Annual Passports</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/about'>About Us</a> \
 							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Safety Guidelines</a> </div>";
