@@ -70,12 +70,12 @@
 
 			console.log('Mini Header 2');
 
-			Header.innerHTML = "<div id='headerBar' style='height:60px;'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer' style='height:60px;></div>";
+			Header.innerHTML = "<div id='headerBar' style='height:60px;'></div> <div id='minimizedHeaderMenu'></div> <div id='miniMenuHider' onclick='runMiniMenu()'></div> <div id='headerSpacer' style='height:60px;'></div>";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";	
 		
-			headBar.innerHTML = "<img id='headerBarLogoSmall' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
+			headBar.innerHTML = "<<img id='headerBarLogoSmall' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<button id='openHeaderMenuMinimized' onclick='runMiniMenu()'>&#8801;</button>";
 
 			
