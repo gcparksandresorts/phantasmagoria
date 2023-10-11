@@ -120,7 +120,7 @@
 	function openMiniMenu(num){
         
         	const tmini = document.getElementById("ttdMiniMenu");
-            	const mmini = document.getElementById("mreMiniMenu");
+            	const mmini = document.getElementById("infoMiniMenu");
             
         	if(num==1){
             	
