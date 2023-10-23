@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/styleHeader.css">
+
+	<title>Restaurants and Dining | Phantasmagoria at Oak Hill</title>
+
+	<style></style>
+
+	<!-- TABS | 8 | NOWRAP -->
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- TITLE AND BANNER -->
+	<div class='titleBar'>		<h1>Restaurants and Dining</h1>	</div>
+
+	<!-- PAGE CONTENT -->
+	<div class='container'>
+		<label for="sectionSelect">Location</label>
+		<select name="sectionSelect" id="sectionSelectTwo" onchange="selectSection();">
+			<option value='view-all'>View All</option>
+			<!--<option value='trth'>Trick r' Treat Hallow</option>
+			<option value='ch'>Camp Hackenslash</option>
+			<option value='vv'>Vampire Village</option>
+			<option value='ins'>Innsmouth</option>
+			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+			-->
+		</select>
+		
+		<label for="sectionSelect">Eatery Type</label>
+		<select name="sectionSelect" id="sectionSelect" onchange="selectSection();">
+			<option value='view-all'>View All</option>
+			<option value='DS'>Drinks and Snacks</option>
+			<option value='CD'>Casual Dining</option>
+			<option value='DE'>Desserts</option>
+			<!--<option value='lunchMenu'>Lunch and Dinner (12PM)</option>-->
+		</select>
+	</div>
+
+	<br>
+
+	<section id='DS' class='sectionContainer attractionDiv'>
+		<div class='subtitleBar'>
+			<h2>Drinks and Snacks</h2>
+		</div>
+		<div class='tileContainer'>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			
+		</div>
+	</section>
+
+	<section id='CD' class='sectionContainer attractionDiv'>
+		<div class='subtitleBar'>
+			<h2>Casual Dining</h2>
+		</div>
+		<div class='tileContainer'>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+			
+		</div>
+	</section>
+
+	<section id='DE' class='sectionContainer attractionDiv'>
+		<div class='subtitleBar'>
+			<h2>Dessert</h2>
+		</div>
+		<div class='tileContainer'>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+
+			<div onclick='window.open("dining/attraction_link","_self")'>
+				<img src='../webresources/images/logos/phantasmagoriaLogo2.png'>
+				<h3>attraction_name</h3>
+				Description_goes_here
+			</div>
+			
+		</div>
+	</section>
+		
+	
+	
+<br><!-- Footer Elements --><div id="footer"></div>
+</body>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+	
+	<!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectSection();</script>
