@@ -88,18 +88,16 @@
 			MHM.innerHTML += "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/attractions'>Rides and Attractions</a> \
-							<a href=''>Entertainment</a> \
-							<a href=''>Resturants and Dining</a> \
-							<a href=''>Shopping</a> \
-							<a href=''>Special Events</a>  </div>"; 
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/entertainment'>Entertainment</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/dining'>Restaurants and Dining</a> \
+							<a href=''>Shopping</a> </div>";
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Places to Stay</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
 				MHM.innerHTML += "<div id='mreMiniMenu' class='i'> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/resort-schedule'>Hours and Information</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/gcvip'>Priority Passes</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/tickets/annual-passports'>Annual Passports</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/about'>About Us</a> \
-							<a href='https://gcparksandresorts.github.io/gcresorthighland/information/safety-guidelines'>Safety Guidelines</a> </div>";
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/priority-passes'>Priority Passes</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/annual-passports'>Annual Passports</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/information/about'>About Us</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/information/safety-guidelines'>Safety Guidelines</a> </div>";
 
 		console.log('Mini Header 3');
 		decorateHeaderBar();
