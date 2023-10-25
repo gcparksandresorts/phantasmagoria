@@ -42,7 +42,7 @@
 
 #ttdSideMenu{
 	display:none;
-	position:absolute;
+	position:fixed;
 
 	top:150px;
 	width:100%;
