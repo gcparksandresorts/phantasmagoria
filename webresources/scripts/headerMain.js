@@ -51,12 +51,16 @@
 		const tsidemen = document.getElementById("ttdSideMenu");
 		const hiddenHider = document.getElementById("hoverHider");
 
+		const link1 = '"https://gcparksandresorts.github.io/phantasmagoria/things-to-do/attractions", "_self"';
+		const link2 = '"https://gcparksandresorts.github.io/phantasmagoria/things-to-do/dining", "_self"';
+		const link3 = '"https://gcparksandresorts.github.io/phantasmagoria/things-to-do/entertainment", "_self"';
+
 		if(tsidemen.style.display == 'block'){
 			tsidemen.style.display = 'none';
 			hiddenHider.style.display = 'block';
 		}else{
 			tsidemen.innerHTML = "";
-			tsidemen.innerHTML = "<div class='porthole'> <div> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/dropOfDoom2.jpg'> <h3>Attractions</h3> </div> <div> <img src='https://rockinmama.net/wp-content/uploads/2017/09/Halloween-Treats-at-Disneyland.png'> <h3>Restaurants</h3> </div> <div> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/aradiasEnchanted2.jpg'> <h3>Entertainment</h3> </div> </div>";
+			tsidemen.innerHTML = "<div class='porthole'> <div onclick='window.open("+link1+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/dropOfDoom2.jpg'> <h3>Attractions</h3> </div> <div onclick='window.open("+link1+")'> <img src='https://rockinmama.net/wp-content/uploads/2017/09/Halloween-Treats-at-Disneyland.png'> <h3>Restaurants</h3> </div> <div onclick='window.open("+link1+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/aradiasEnchanted2.jpg'> <h3>Entertainment</h3> </div> </div>";
 			tsidemen.style.display = 'block';
 			hiddenHider.style.display = 'block';
 		}
