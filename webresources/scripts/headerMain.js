@@ -54,7 +54,7 @@
 			hiddenHider.style.display = 'block';
 		}else{
 			tsidemen.innerHTML = "";
-			tsidemen.innerHTML = "<div class='porthole'> <div> <img src=''> <h3>Attractions</h3> </div> <div> <img src=''> <h3>Restaurants</h3> </div> <div> <img src=''> <h3>Entertainment</h3> </div> </div>";
+			tsidemen.innerHTML = "<div class='porthole'> <div> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/dropOfDoom2.jpg'> <h3>Attractions</h3> </div> <div> <img src='https://rockinmama.net/wp-content/uploads/2017/09/Halloween-Treats-at-Disneyland.png'> <h3>Restaurants</h3> </div> <div> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/aradiasEnchanted2.jpg'> <h3>Entertainment</h3> </div> </div>";
 			tsidemen.style.display = 'block';
 			hiddenHider.style.display = 'block';
 		}
