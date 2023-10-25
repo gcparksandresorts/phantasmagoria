@@ -19,7 +19,7 @@
 		if(window.innerWidth >= 675){
 			// Desktop Version
 
-			Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div> <div id='hoverHider' onhover='showTTDmain'></div> <div id='ttdSideMenu'></div> ";
+			Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div> <div id='hoverHider' onhover='showTTDmain()'></div> <div id='ttdSideMenu'></div> ";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";
@@ -27,7 +27,7 @@
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<br>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
-			headBar.innerHTML += "<a class='headerBarButton' onhover='showTTDmain'>Things to Do</a>";
+			headBar.innerHTML += "<a class='headerBarButton' onhover='showTTDmain()'>Things to Do</a>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels</a>";
 			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Information</a>";
 			
@@ -46,6 +46,8 @@
 	window.onresize = function(){initializeHeader();};
 
 	function showTTDmain(){
+		console.log("Opening Things to Do Menu");
+		
 		const tsidemen = document.getElementById("ttdSideMenu");
 		const hiddenHider = document.getElementById("hoverHider");
 
