@@ -39,26 +39,28 @@
     margin-left:10px;
     margin-right:10px;
 }
+
+#ttdSideMenu{
+	display:none;
+	position:absolute;
+
+	top:150px;
+	width:full;
+	margin:15px;
+	background:#efefef;
+	padding:20px;
+
+	animation:fadeIn 0.5s;
+	box-shadow:2px 2px 8px black;
+
+	z-index:901;
+}
+
+#hoverHider{z-index:900; opacity:0.2; position:fixed; top:0; bottom:0; left:0; right:0; background:#000000; display:none;}
         
         
 .headerBarButton:hover{color:#67A032; text-decoration:underline; cursor:pointer;}
 #headerBarTP:hover{background:#efefef;scale:1.05;color:black;}
-
-#ttdMenu, #moreMenu{
-	display:none;
-	
-	position:fixed; top:60px; right:65px;
-    	background:#efefef;
-        width:600px; height:auto;
-        padding:20px;
-        z-index:998;
-        
-        text-align:center;
-        
-        animation:FadeIn 0.45s;
-        
-        box-shadow:2px 2px 8px black;
-}
 
 #moreMenu{right:0;}
 
@@ -76,7 +78,6 @@
 #ttdMenu .ttdButton, #moreMenu .moreBtn{width:524px;}
 #ttdMenu .ttdButton:hover, #moreMenu .moreBtn:hover{scale:1.05; background:#5F2B93; color:white;}
 
-#ttdHide, #moreHide{z-index:900; opacity:0.2; position:fixed; top:0; bottom:0; left:0; right:0; background:#000000; display:none;}
 
 
 /* -- MINIMIZED HEADER ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
