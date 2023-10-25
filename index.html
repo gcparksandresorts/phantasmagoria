@@ -10,6 +10,17 @@
 
 	<style>
 		.porthole div:hover{cursor:pointer;}
+		.banner{background:black;}
+		.mySlides {animation:fadeIn 0.4s;}
+		
+		@keyframes fadeIn {
+		    0% {
+		        opacity: 0;
+		    }
+		    100% {
+		        opacity: 1;
+		     }
+		}
 	</style>
 
 </head>
@@ -20,9 +31,13 @@
 <!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
 
 	<div class='banner' style='height:80vh;'>
-		<img src='https://media0.giphy.com/media/pHoXs2uHHMenUq8AQA/giphy.gif'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/entrance_day.jpg'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/engineEntropy1.jpg'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/halllowsEveInn.jpg'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/vampireVillageBanner.jpg'>
+		<img class='mySlides' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/aradias_river2.png'>
 	</div>
-	<div class='subtitleBar'><h1>Experience Halloween</h1><p>Phantasmagoria at Oak Hill is a unique Halloween experience like no other. Experience an immersive and unique environment filled to the brim with spooky spirits and haunting atmospherics. With many lands to explore, there's much to be discovered deep in the forested mountains of Oak Hill.</p></div>
+	<div class='subtitleBar'><br><h1>Experience Halloween</h1><p>Phantasmagoria at Oak Hill is a unique Halloween experience like no other. Experience an immersive and unique environment filled to the brim with spooky spirits and haunting atmospherics. With many lands to explore, there's much to be discovered deep in the forested mountains of Oak Hill.</p><br></div>
 
 	<div class='container'>
 		<h2>Things to Do</h2>
@@ -115,6 +130,8 @@
 </body>
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<script type="text/javascript" src="https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/slideshow.js"></script>
 	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/headerMain.js'></script>
