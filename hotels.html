@@ -8,7 +8,9 @@
 
 	<title>Places to Stay | Phantasmagoria at Oak Hill</title>
 
-	<style></style>
+	<style>
+		.clickBtn {width:90%; margin:auto; margin-top:10px;}
+	</style>
 
 	<!-- TABS | 8 | NOWRAP -->
 
@@ -21,7 +23,7 @@
 
 	<!-- TITLE AND BANNER -->
 	<div class='banner'>
-		<img src='https://phgcdn.com/images/uploads/SANHC/masthead/Fright-Night-Hotel-del-Coronado-2500x1100-1.jpg'>
+		<img src='webresources/images/dracCastle2.jpg'>
 	</div>
 	<div class='titleBar'>		<h2>Places to Stay</h2>	</div>
 	<div class='subtitleBar'>	<p>Phantasmagoria at Oak Hill is home to multiple unique hotels, each with a unique theme and direct access to the park.</p>	</div>
@@ -29,24 +31,36 @@
 	<!-- PAGE CONTENT -->
 	<div class='leftContainer'>
 		<div class='columnContainer'>
-			<img src='webresources/images/logos/phantasmagoriaLogo2.png'>
+			<img src='webresources/images/halllowsEveInn.jpg'>
 			<div>
-				<h1>That One Hotel</h1>
-				Located in the heart of the park, this hotel features views of the train and a spooky atmosphere for all halloween lovers.
+				<h1>Hallows Eve Inn</h1>
+				Snuggle up by the fire and turn on your favorite spooky movie, as you take in the warmth and comfort of Oak Hill’s original hotel. Visit for a night, or choose from one of our Rest in Peace Packages to allow entry to and from the Park whenever you like! 
 				<br>
-				<button>View Hotel</button>
+				<button class='clickBtn' onclick='window.open("hotels/hallows-eve-inn","_self")'>View Hotel</button>
 			</div>
 		</div>
 
 		<div class='spacer'></div>
 
 		<div class='columnContainer'>
-			<img src='webresources/images/logos/phantasmagoriaLogo2.png'>
+			<img src='webresources/images/dracCastle.jpg'>
 			<div>
-				<h1>That One Hotel</h1>
+				<h1>Dracula's Castle</h1>
+				At the Resort’s newest hotel, live out your gothic fantasies with fully themed hotel rooms, luxurious interiors, and countless amenities and activities all day and night. Fly down to the vast catacombs for family-friendly dance parties in the day, and watch it transform into a 21+ dance club and bar with live DJs and entertainment featured nightly.
+				<br>
+				<button class='clickBtn' onclick='window.open("hotels/draculas-castle","_self")'>View Hotel</button>
+			</div>
+		</div>
+
+		<div class='spacer'></div>
+
+		<div class='columnContainer'>
+			<img src='webresources/images/campHackenslash.jpg'>
+			<div>
+				<h1>Camp Hackenslash</h1>
 				Located in the heart of the park, this hotel features views of the train and a spooky atmosphere for all halloween lovers.
 				<br>
-				<button>View Hotel</button>
+				<button class='clickBtn' onclick='window.open("hotels/camp-hackenslash","_self")'>View Hotel</button>
 			</div>
 		</div>
 	</div>
@@ -54,7 +68,14 @@
 	<div class='titleBar'><h2>Vacation Packages</h2></div>
 
 	<div class='container'>
-		There are currently no vacation packages available
+		<div class='columnContainer'>
+			<img src='webresources/images/entrance_day.jpg'>
+			<div>
+				<h2>Rest in Peace Package</h2>
+				Rest in Peace Packages give you all inclusive access with our very own Boo-Band for Priority Pass, tap-to-pay options, and other exciting features. Choose from 4-Night, 7-Night, or 13-Night Packages.
+				<button class='clickBtn'>Learn More</button>
+			</div>
+		</div>
 	</div>
 	
 	
