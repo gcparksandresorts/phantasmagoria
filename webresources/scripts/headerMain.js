@@ -19,7 +19,7 @@
 		if(window.innerWidth >= 675){
 			// Desktop Version
 
-			Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div>";
+			Header.innerHTML = "<div id='headerBar'></div><div id='headerSpacer'></div> <div id='hoverHider' onhover='showTTDmain'></div> <div id='ttdSideMenu'></div> ";
 
 			let headBar = document.getElementById("headerBar");
 			headBar.innerHTML = "";
@@ -27,7 +27,7 @@
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<br>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
-			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Things to Do</a>";
+			headBar.innerHTML += "<a class='headerBarButton' onhover='showTTDmain'>Things to Do</a>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels</a>";
 			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Information</a>";
 			
@@ -44,6 +44,21 @@
 	}
 
 	window.onresize = function(){initializeHeader();};
+
+	function showTTDmain(){
+		const tsidemen = document.getElementById("ttdSideMenu");
+		const hiddenHider = document.getElementById("hoverHider");
+
+		if(tsidemen.style.display == 'block'){
+			tsidemen.style.display = 'none';
+			hiddenHider.style.display = 'block';
+		}else{
+			tsidemen.innerHTML = "";
+			tsidemen.innerHTML = "<div class='porthole'> <div> <img src=''> <h3>Attractions</h3> </div> <div> <img src=''> <h3>Restaurants</h3> </div> <div> <img src=''> <h3>Entertainment</h3> </div> </div>";
+			tsidemen.style.display = 'block';
+			hiddenHider.style.display = 'block';
+		}
+	}
 
 //---------------------------------------------------------------------------------------------------------------------------------- FOOTER SETUP
 	function createFooter(){
@@ -93,7 +108,7 @@
 							<a href=''>Shopping</a> </div>";
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Places to Stay</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
-				MHM.innerHTML += "<div id='mreMiniMenu' class='i'> \
+				MHM.innerHTML += "<div id='infoMiniMenu' class='i'> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/priority-passes'>Priority Passes</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/annual-passports'>Annual Passports</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/information/about'>About Us</a> \
