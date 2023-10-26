@@ -22,8 +22,8 @@ h1{font-size:28px;color:#5F2B93;font-weight:normal;} h2{font-size:23px;color:#5F
 
 	.spacer{width:90%;height:2px;margin:auto;margin-top:20px;margin-bottom:20px;border:none;border-radius:1px;background:#efefef;}
 
-	.columnImages {display:flex; flex-flow:row; align-items:flex-start; justify-content:center; flex-wrap:wrap;}
-	.columnImages img{width:40%; margin:10px; border-radius:10px; ; min-width:300px;}
+	.columnImages {display:flex; flex-flow:row; align-items:flex-start; justify-content:center; flex-wrap:wrap; padding:0;}
+	.columnImages img{width:42%; margin:4%; border-radius:10px; ; min-width:300px;}
 
 
 /*-- BANNERS AND TITLE BARS --------------------------------------------------------------------------------------------------------------------------------- */
