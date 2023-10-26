@@ -24,7 +24,7 @@ h1{font-size:28px;color:#5F2B93;font-weight:normal;} h2{font-size:23px;color:#5F
 
 	.columnImages {display:flex; flex-flow:row; align-items:flex-start; justify-content:center; flex-wrap:wrap; padding:0;}
 	.columnImages img{width:48%; margin:1%; border-radius:10px; ; min-width:300px;}
-	@media screen and (max-width:700px){.columnImages img{width:98%}}
+	@media screen and (max-width:700px){.columnImages img{width:98%; margin-bottom:10px; margin-top:10px;}}
 
 
 /*-- BANNERS AND TITLE BARS --------------------------------------------------------------------------------------------------------------------------------- */
