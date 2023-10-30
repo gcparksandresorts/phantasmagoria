@@ -29,7 +29,7 @@
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
 			headBar.innerHTML += "<a class='headerBarButton' onmouseover='showTTDmain()'>Things to Do</a>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels</a>";
-			headBar.innerHTML += "<a class='headerBarButton' onhover=''>Information</a>";
+			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/information'>Information</a>";
 			
 						
 		}//end of if statemement
@@ -115,6 +115,7 @@
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Places to Stay</a>";
 			MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
 				MHM.innerHTML += "<div id='infoMiniMenu' class='i'> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/information'>Park Information</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/priority-passes'>Priority Passes</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets/annual-passports'>Annual Passports</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/information/about'>About Us</a> \
