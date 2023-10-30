@@ -60,7 +60,7 @@
 			hiddenHider.style.display = 'none';
 		}else{
 			tsidemen.innerHTML = "";
-			tsidemen.innerHTML = "<div class='porthole'> <div onclick='window.open("+link1+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/dropOfDoom2.jpg'> <h3>Attractions</h3> </div> <div onclick='window.open("+link2+")'> <img src='https://rockinmama.net/wp-content/uploads/2017/09/Halloween-Treats-at-Disneyland.png'> <h3>Restaurants</h3> </div> <div onclick='window.open("+link3+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/aradiasEnchanted2.jpg'> <h3>Entertainment</h3> </div> </div>";
+			tsidemen.innerHTML = "<div class='porthole'> <div onclick='window.open("+link1+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/theBat3.jpg'> <h3>Attractions</h3> </div> <div onclick='window.open("+link2+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/food/junipers2.jpg'> <h3>Restaurants</h3> </div> <div onclick='window.open("+link3+")'> <img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/spirit1.jpg'> <h3>Entertainment</h3> </div> </div>";
 			tsidemen.style.display = 'block';
 			hiddenHider.style.display = 'block';
 		}
