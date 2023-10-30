@@ -117,7 +117,7 @@ h1{font-size:28px;color:#5F2B93;font-weight:normal;} h2{font-size:23px;color:#5F
 		}
 
 		.menuItems{display:flex; flex-flow:row; flex-wrap:wrap; align-items:flex-start; max-width:900px; margin:auto;}
-		.menuItems div{width:50%; margin:0; padding:10px; align-self:stretch; text-align:left;}
+		.menuItems div{width:50%; margin:0; padding:10px; align-self:stretch; text-align:center;}
 
 		@media screen and (max-width:700px){
 			.menuItems div{width:100%; padding:12px; text-align:center;}
