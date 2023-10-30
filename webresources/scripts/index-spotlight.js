@@ -39,10 +39,10 @@ function runSpotlight(){
 			link = "things-to-do/attractions/halloween-party-trail";
 			break;
 		case 4:
-			head = "Ride Spotlight: ride_name";
-			cont = "ride_description";
-			imgLink = "webresources/images/ride_img_link";
-			link = "things-to-do/attractions/attraction_link";
+			head = "Ride Spotlight: Devil’s Reef Dizzinator";
+			cont = "Get ready for a gnarly ride on this spinning boardwalk coaster, plunge 26 meters, and cool off with a splashdown into the lagoon.";
+			imgLink = "webresources/images/dizzinator3.jpg";
+			link = "things-to-do/attractions/the-dizzinator";
 			break;
 		case 5:
 			head = "Ride Spotlight: Spirit House";
