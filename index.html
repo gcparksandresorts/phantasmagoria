@@ -69,11 +69,11 @@
 
 	<div class='fullContainer' style='background:#67A032'>
 		<div class='columnContainer'>
-			<img src='webresources/images/Drop of Doom Sign Night.png' style='max-height:200px;'>
+			<img id='spotlightImage' style='max-height:200px;'>
 			<div style='text-align:left; color:white'>
-				<h2 style='color:white'>Ride Spotlight: Dr. Frankenstein's Drop of Doom</h2>
-				Mwa-ha-ha-ha! Can you handle the power of the Park’s tallest, steepest, and fastest drop? Dr. Frankenstein is looking for test subjects for his most high voltage experiment yet.
-				<br><a href='things-to-do/attractions/drop-of-doom'>Learn More</a>
+				<h2 style='color:white' id='spotlightHeading'>Ride Spotlight Section</h2>
+				<div id='spotlightContent'>Error loading content..</div>
+				<br><a id='click_link'>Learn More</a>
 			</div>
 		</div>
 	</div>
@@ -143,6 +143,9 @@
 <!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
 
 	<script type="text/javascript" src="https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/slideshow.js"></script>
+
+	<script type='text/javascript' src='webresources/scripts/index-spotlight.js'></script>
+	<script>runSpotlight();</script>
 	
 	<!-- CREATE THE HEADER AND FOOTER -->
 	<script type='text/javascript'src='https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/headerMain.js'></script>
