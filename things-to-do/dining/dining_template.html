@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/images/webfavicon1.ico">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/styleSheet.css">
+	<link rel="stylesheet" href="https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/styleHeader.css">
+	
+  <!--TAB TITLE --> <!------------------------------------------------------------------------------------------------------------------------------------- HEAD -->
+  	<title>RESTAURANT_NAME | Restaurants and Dining | Phantasmagoria at Oak Hill</title>
+  
+  	<style>
+    	</style>
+
+</head>
+
+	<script></script>
+
+<body onload="endLoadingInit()"> <!------------------------------------------------------------------------------------------------------------------------ BODY -->
+<!-- Header Elements --><div id='loader'><div></div></div><div id="header"></div>
+
+	<!-- BANNER IMAGE AND TITLE BAR -->
+	<div class='fullContainer' id='diningBanner'>
+    	<div class='columnContainer'>
+        	<img src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/food/ghouls1.jpg'>
+            	<div>
+	            	<h1>Resturaunt Name</h1>
+			<p><a href='../dining'>Dining</a> located in <em>LAND_NAME</em></p>
+	                Resturaunt_Description
+           	</div>
+       	</div>
+    	</div>
+    
+<!-- to customize, add or delete new options. Code will take value and convert that to an ID to display -->
+	<div class='container'>
+		<label for="menuSelect">Meal Period:</label>
+		<select name="menuSelect" id="menuSelect" onchange="selectMenu();">
+			<option value='breakfastMenu'>Breakfast (opening - 12PM)</option>
+			<option value='lunchMenu'>Lunch and Dinner (12PM)</option>
+		</select>
+	</div>
+
+<div class='spacer'></div>
+
+	<section class='menuSection diningSection' id='breakfastMenu'>
+
+		<div class='container'>
+			<h1>Breakfast Menu</h1>
+		</div>
+
+		<div class='spacer'></div>
+		
+		<div class='container'>
+			<h3>Section Name</h3>
+			<p class='foodSubheading'></p>
+			<div class='menuItems'>
+				<div>
+					<p><b>item_name - item_price</b><br>item_description</p>
+					<p><b>item_name - item_price</b><br>item_description</p>
+				</div>
+				<div>
+					<p><b>item_name - item_price</b><br>item_description</p>
+					<p><b>item_name - item_price</b><br>item_description</p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<section class='menuSection diningSection' id='lunchMenu'>
+
+		<div class='container'>
+			<h1>Lunch and Dinner Menu</h1>
+		</div>
+
+		<div class='spacer'></div>
+		
+		<div class='container'>
+			<h3>Section Name</h3>
+			<p class='foodSubheading'></p>
+			<div class='menuItems'>
+				<div>
+					<p><b>item_name - item_price</b><br>item_description</p>
+					<p><b>item_name - item_price</b><br>item_description</p>
+				</div>
+				<div>
+					<p><b>item_name - item_price</b><br>item_description</p>
+					<p><b>item_name - item_price</b><br>item_description</p>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
+	<div class='spacer'></div>
+	
+	<div class='container'>
+		<p><span class='vegan'>V</span> - Vegan option available</p>
+		<p>Please inform your server if you have a severe food allergy.</p>
+		<p>All food prepared in this facility holds the possibility of coming into contact with meat, dairy, and nuts.</p>
+		<p class='disclaimer'>Prices subject to change. All restaurants and dining at the Globe-City Resort Highland are subject to closure at any time.</p>
+	</div>
+
+	<div class='spacer'></div>
+
+	<div class='container'>
+		<button onclick='history.back()'>Back to previous</button>
+		<button onclick='window.open("../dining","_self")'>View all restaurants</button>
+	</div>
+	
+<!-- Footer Elements --><div id="footer"></div>
+</body>
+	
+	
+<!------------------------------------------------------------------------------------------------------------------------------------------------ JAVASCRIPTS -->
+
+	<!-- SHOW OR HIDE MENUS -->
+	<script type='text/javascript' src='https://gcparksandresorts.github.io/gcresorthighland/webresources/scripts/menuSelector.js'></script>
+	<script>selectMenu();</script>
+    
+    <!-- CREATE THE HEADER AND FOOTER -->
+	<script type='text/javascript'src='https://gcparksandresorts.github.io/phantasmagoria/webresources/scripts/headerMain.js'></script>
+	<script>runHeaderSetup();</script>
+
+
+</html>
