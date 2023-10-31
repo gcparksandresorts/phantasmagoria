@@ -28,7 +28,7 @@
 			headBar.innerHTML += "<br>";
 			// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
 			headBar.innerHTML += "<a class='headerBarButton' onmouseover='showTTDmain()'>Things to Do</a>";
-			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels</a>";
+			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels and Campground</a>";
 			// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/information'>Information</a>";
 			
 						
