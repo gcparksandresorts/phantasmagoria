@@ -106,14 +106,13 @@
 			const MHM = document.getElementById("minimizedHeaderMenu");
 			MHM.innerHTML = "";
 
-			// MHM.innerHTML = "<a href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
+			MHM.innerHTML = "<a href='https://gcparksandresorts.github.io/phantasmagoria'>Home</a>";
 			MHM.innerHTML = "<a onclick='openMiniMenu(1)'>Things to Do &#9661;</a>";
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/attractions'>Rides and Attractions</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/entertainment'>Entertainment</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/dining'>Restaurants and Dining</a> \
-							<a href=''>Shopping</a> </div>";
-			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Places to Stay</a>";
+			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels and Campground</a>";
 		
 			/* MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
 				MHM.innerHTML += "<div id='infoMiniMenu' class='i'> \
