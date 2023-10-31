@@ -29,8 +29,8 @@ function runSpotlight(){
 		case 2:
 			head = "Ride Spotlight: Mushroom Canyon Mining Co";
 			cont = "Thrillseekers can take a ride down the mountainside and into the mines of the Mushroom Canyon Caves on this intense swinging mine train roller coaster.";
-			imgLink = "webresources/images/mushroom-mining-co";
-			link = "things-to-do/attractions/mushroomCanyon3.jpg";
+			imgLink = "webresources/images/mushroomCanyon3.jpg";
+			link = "things-to-do/attractions/mushroom-mining-co";
 			break;
 		case 3:
 			head = "Ride Spotlight: Halloween Party Trail";
