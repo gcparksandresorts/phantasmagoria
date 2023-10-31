@@ -26,11 +26,11 @@
 			
 			headBar.innerHTML = "<img id='headerBarLogo' src='https://gcparksandresorts.github.io/phantasmagoria/webresources/images/logos/PhantasmagoriaLogo1.png' onclick='funcGoToHome();'>";
 			headBar.innerHTML += "<br>";
-			// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
+				// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/tickets'>Tickets and Passes</a>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria'>Home</a>";
 			headBar.innerHTML += "<a class='headerBarButton' onmouseover='showTTDmain()'>Things to Do</a>";
 			headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels and Campground</a>";
-			// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/information'>Information</a>";
+				// headBar.innerHTML += "<a class='headerBarButton' href='https://gcparksandresorts.github.io/phantasmagoria/information'>Information</a>";
 			
 						
 		}//end of if statemement
@@ -111,7 +111,7 @@
 				MHM.innerHTML += "<div id='ttdMiniMenu' class='i'> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/attractions'>Rides and Attractions</a> \
 							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/entertainment'>Entertainment</a> \
-							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/dining'>Restaurants and Dining</a> \
+							<a href='https://gcparksandresorts.github.io/phantasmagoria/things-to-do/dining'>Restaurants and Dining</a> </div>";
 			MHM.innerHTML += "<a href='https://gcparksandresorts.github.io/phantasmagoria/hotels'>Hotels and Campground</a>";
 		
 			/* MHM.innerHTML += "<a onclick='openMiniMenu(2)'>Information &#9661;</a>";
